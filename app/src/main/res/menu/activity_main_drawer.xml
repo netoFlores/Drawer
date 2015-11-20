@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/fragme1" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Fragme 1" />
+        <item android:id="@+id/fragme2" android:icon="@android:drawable/sym_call_outgoing"
+            android:title="Fragme 2" />
+        <item android:id="@+id/fragme3" android:icon="@android:drawable/presence_video_online"
+            android:title="Fragme 3" />
+        <item android:id="@+id/fragme4" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Fragme 4" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
